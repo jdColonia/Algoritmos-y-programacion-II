@@ -1,0 +1,1 @@
+[{"name":"ARGENTINA","gold":5,"silver":0,"bronze":0,"total":5},{"name":"BRASIL","gold":0,"silver":0,"bronze":7,"total":7},{"name":"COLOMBIA","gold":5,"silver":0,"bronze":0,"total":5},{"name":"DINAMARCA","gold":0,"silver":5,"bronze":0,"total":5},{"name":"ECUADOR","gold":0,"silver":3,"bronze":0,"total":3},{"name":"ESTADOS UNIDOS","gold":10,"silver":0,"bronze":0,"total":10}]
