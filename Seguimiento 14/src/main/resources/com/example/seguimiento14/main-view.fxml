@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="371.0" prefWidth="350.0" style="-fx-border-color: GREEN; -fx-border-width: 7;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.seguimiento14.control.MainController">
+    <children>
+        <Label alignment="CENTER" layoutX="65.0" layoutY="14.0" text="BANCO ALFA">
+            <font>
+                <Font name="System Bold Italic" size="35.0" />
+            </font>
+        </Label>
+      <TextField fx:id="amountTF" layoutX="83.0" layoutY="76.0" prefHeight="25.0" prefWidth="192.0" promptText="Monto" />
+        <ComboBox fx:id="typeCB" layoutX="101.0" layoutY="150.0" prefWidth="150.0" promptText="Gasto/Ingreso" />
+        <DatePicker fx:id="dateDP" layoutX="89.0" layoutY="188.0" promptText="Fecha" />
+        <TextField fx:id="descriptionTF" layoutX="83.0" layoutY="113.0" prefHeight="25.0" prefWidth="192.0" promptText="Descripción" />
+        <Button layoutX="14.0" layoutY="251.0" mnemonicParsing="false" onAction="#addRecord" prefHeight="30.0" prefWidth="150.0" style="-fx-border-color: GREEN; -fx-border-width: 2;" text="Añadir gasto/ingreso">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button layoutX="188.0" layoutY="251.0" mnemonicParsing="false" onAction="#deleteRecord" prefHeight="30.0" prefWidth="150.0" style="-fx-border-color: GREEN; -fx-border-width: 2;" text="Eliminar gasto/ingreso">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="showAccountBTN" layoutX="104.0" layoutY="304.0" mnemonicParsing="false" onAction="#showAccount" prefHeight="30.0" prefWidth="150.0" style="-fx-border-color: GREEN; -fx-border-width: 2;" text="Ver cuenta">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
